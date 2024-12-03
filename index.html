@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv=“Pragma” content=”no-cache”>
+<meta http-equiv=“Expires” content=”-1″>
+<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+<!-- CSS Stylesheets -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="css/master.css">
+<link rel="stylesheet" href="css/nav.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+<title>Mariam H. DuPont</title>
+</head>
+
+<body>
+
+  <a name="top-of-document"></a>
+
+<!-- floating scroll to top navigator -->
+
+  <div class="to-top-navigator">
+
+    <div class="to-top-cloud" aria-label="Ascend to the top!" aria-hidden="true">
+        <a href="javascript:scrollToAnchor('top-of-document')" data-toggle="tooltip" data-placement="left" title="Scroll to the top" onclick="javascript:toolTipReset()"><i class="fas fa-plane-departure"></i></a>
+    </div>
+
+    <div>
+        <a href="javascript:scrollToPreviousSection()">
+        <span class="tcon-indicator" aria-label="Scroll to previous section outside of viewport" aria-hidden="true" data-toggle="tooltip" data-placement="left" title="Scroll to previous section outside of viewport" onclick="javascript:toolTipReset()">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="tcon-svgchevron" viewBox="0 0 30 58">
+            <path class="a1" d="M3,13l13-10l13,10"></path>
+            <path class="a2" d="M3,33l13-10l13,10"></path>
+            <path class="a3" d="M3,53l13-10l13,10"></path>
+            </svg>
+        </span>
+        </a>
+    </div>
+
+  </div>
+
+  <!-- floating section indicators -->
+
+  <div class="section-indicators-block">
+
+    <div class="section-indicator">
+        <a id="bio-section-indicator" href="#" data-toggle="tooltip" data-placement="left" title="Jump to Bio" onclick="javascript:toolTipReset()"><i class="fas fa-circle"></i></a>
+    </div>
+
+    <div class="section-indicator">
+        <a id="portfolio-section-indicator" href="javascript:scrollToAnchor('portfolio');" data-toggle="tooltip" data-placement="left" title="Jump to Portfolio" onclick="javascript:toolTipReset()"><i class="far fa-circle"></i></a>
+    </div>
+
+    <div class="section-indicator">
+        <a id="skill-summary-section-indicator" href="javascript:scrollToAnchor('skill-summary');" data-toggle="tooltip" data-placement="left" title="Jump to Skill Summary" onclick="javascript:toolTipReset()"><i class="far fa-circle"></i></a>
+    </div>
+
+    <div class="section-indicator">
+        <a id="career-highlights-section-indicator" href="javascript:scrollToAnchor('career-highlights');" data-toggle="tooltip" data-placement="left" title="Jump to Career Hightlights" onclick="javascript:toolTipReset()"><i class="far fa-circle"></i></a>
+    </div>
+
+    <div class="section-indicator">
+        <a id="education-section-indicator" href="javascript:scrollToAnchor('education');" data-toggle="tooltip" data-placement="left" title="Jump to Education" onclick="javascript:toolTipReset()"><i class="far fa-circle"></i></a>
+    </div>
+
+    <div class="section-indicator">
+        <a id="contact-section-indicator" href="javascript:scrollToAnchor('contact');" data-toggle="tooltip" data-placement="left" title="Jump to Contact" onclick="javascript:toolTipReset()"><i class="far fa-circle"></i></a>
+    </div>
+
+  </div>
+
+  <!-- floating scroll down inviter -->
+
+  <div class="scroll-down-navigator">
+
+    <div>
+        <a href="javascript:scrollToNextSection()" data-toggle="tooltip" data-placement="left" title="Scroll to next section outside of viewport" onclick="javascript:toolTipReset()">
+        <span class="tcon-indicator" aria-label="Scroll to next section outside of viewport" aria-hidden="true">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="tcon-svgchevron" viewBox="0 0 30 58">
+            <path class="a3" d="M3,3l13,10l13-10"></path>
+            <path class="a2" d="M3,23l13,10l13-10"></path>
+            <path class="a1" d="M3,43l13,10l13-10"></path>
+            </svg>
+        </span>
+        </a>
+    </div>
+
+    <div class="scroll-down-plane" aria-label="Descend to the bottom!" aria-hidden="true">
+        <a href="javascript:scrollToAnchor('bottom-of-document')" data-toggle="tooltip" data-placement="left" title="Scroll to the bottom" onclick="javascript:toolTipReset()"><i class="fas fa-plane-arrival"></i></a>
+    </div>
+
+  </div>
+
+  <!-- end of navigation bar -->
+
+  <a name="bio"></a>
+  <div id="bio" class="container section-visual-boundry">
+
+      <div class="row justify-content-center">
+        
+        <div class="hero-div col-8 col-sm-4 col-md-4" >
+          <img class="hero" src="images/portrait.jpg" alt="portrait" />
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-8">
+          <p class="page-title">KIRAN</p>
+          <p class="page-subtitle">Software Developer, Technical Team Lead</p>
+          <p class="bio-block">I am a software developer and Technical Team Lead. After I graduated from IIIT Banagalore with a master degree in ML & AI, I have
+            been working on interesting projects that bring the world together. Here's a portfolio of some of my work. I hope you enjoy them!</p>
+         
+        </div>
+      </div>
+
+  </div>
+
+  <hr />
+
+<a name="portfolio"></a>
+<p id="portfolio" class="section-heading section-visual-boundry">Portfolio</p>
+
+<div style="text-align: center;" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+   
+    <div class="col bm-2">
+        <div class="card h-100">
+          <img src="images/linkedin.jpg" class="card-img-top" alt="linkedin">
+          <div class="card-body">
+            <h5 class="card-title">LinkedIn</h5>
+            <p class="card-text">Take a look at my profile on LinkedIn</p>
+            <a href="https://www.linkedin.com/in/kiran0820/" target="_blank" class="btn btn-primary">Go to my LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    <div class="col bm-2">
+      <div class="card h-100">
+        <img src="images/github.jpg" class="card-img-top" alt="GitHub">
+        <div class="card-body">
+          <h5 class="card-title">GitHub</h5>
+          <p class="card-text">Take a look at my other projects on GitHub</p>
+          <a href="https://github.com/kiran0820" target="_blank" class="btn btn-primary">Go to my GitHub</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+<hr />
+
+<a name="skill-summary"></a>
+<p id="skill-summary" class="section-heading section-visual-boundry">Skill Summary</p>
+
+<p data-toggle="tooltip" data-placement="bottom" 
+   title="These tags tell you what technologies I use"
+   onclick="javascript:toolTipReset()">
+    <span class="keyword-magnet">HTML</span>
+    <span class="keyword-magnet">CSS</span>
+    <span class="keyword-magnet">JavaScript</span>
+    <span class="keyword-magnet">Node.js</span>
+    <span class="keyword-magnet">.NET</span>
+    <span class="keyword-magnet">C#</span>
+    <span class="keyword-magnet">.NET CORE</span>
+    <span class="keyword-magnet">.NET 7 and above</span>
+    <span class="keyword-magnet">AWS</span>
+    <span class="keyword-magnet">Python</span>
+    <span class="keyword-magnet">SQL</span>
+    <span class="keyword-magnet">Xamarin</span>
+</p>
+
+<ul>
+    <li>Full stack web developer</li>
+    <li>Mobile application developer for iOS and Android</li>
+</ul>
+
+<hr />
+
+<a name="career-highlights"></a>
+<p id="career-highlights" class="section-heading section-visual-boundry">Career Highlights</p>
+<p class="section-subheading">Chandigarh</p>
+<p class="section-small-heading">Software Developer, Technical Team Lead</p>
+<ul>
+    <li>Develop emergency mobile and web applications</li>
+    <li>Analyse historical data on hospital employees attendance data</li>
+</ul>
+
+<hr />
+
+<a name="education"></a>
+<p id="education" class="section-heading section-visual-boundry">Education</p>
+<p class="section-subheading">Banagalore, India</p>
+<p class="section-small-heading">Master of Science</p>
+
+<hr />
+
+<a name="contact"></a>
+<p id="contact" class="section-heading section-visual-boundry">Contact</p>
+
+<p>Email: <a href="mailto:kkiran0820@gmail.com" data-toggle="tooltip" data-placement="bottom" title="Tap here to email me" onclick="javascript:toolTipReset()">kkiran0820@gmail.com</a></p>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/kiran0820/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Tap here to visit my LinkedIn page" onclick="javascript:toolTipReset()"">Kiran</a></p>
+  
+<hr />
+
+<!-- <img class="hero" src="images/footer_banner.jpg" alt="banner" /> -->
+
+<a name="bottom-of-document"></a>
+</body>
+
+<footer>
+    <p class="copyright-text">© Copyright 2024 Kiran</p>
+</footer>
+
+<!-- JQuery Scripts -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!-- Bootstrap Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script></head>
+<!-- Our codes -->
+<script src="js/main.js"></script>
+<script src="js/nav.js"></script>
